@@ -107,4 +107,5 @@ def main():
     print("Bot is running...")
     app.run_polling()
 
-pip install python-telegram-bot
+if name == "main":
+    main()
